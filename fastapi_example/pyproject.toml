@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "fastapi"
+name = "fastapi_example"
 version = "0.1.0"
 description = ""
 authors = ["Aleks <aleksbesouro@gmail.com>"]
@@ -7,6 +7,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+fastapi = "^0.124.2"
+uvicorn = "^0.38.0"
+psycopg = "^3.3.2"
+sqlalchemy = "^2.0.45"
 
 
 [build-system]
