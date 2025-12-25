@@ -11,6 +11,12 @@ fastapi = "^0.124.2"
 uvicorn = "^0.38.0"
 psycopg = "^3.3.2"
 sqlalchemy = "^2.0.45"
+email-validator = "^2.3.0"
+passlib = "^1.7.4"
+bcrypt = "^5.0.0"
+argon2 = "^0.1.10"
+pyjwt = "^2.10.1"
+python-jose = {extras = ["cryptography"], version = "^3.5.0"}
 
 
 [build-system]

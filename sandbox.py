@@ -1,24 +1,5 @@
+my_float_1 = 5.4
+my_float_2 = 12.0
 
-
-def say_blyat(func):
-    def wrapper():
-        print("Blyat")
-        func()
-        print("how are you?")
-    return wrapper
-
-@say_blyat
-def say_hello():
-    print("Hello")
-
-say_hello()
-
-
-def f():
-    try:
-        return print("Clgfvjhgka"), 2
-    except:
-        "dfas"
-
-
-f()
+mod_floats = my_float_2 // my_float_1
+print(mod_floats)

@@ -1,10 +1,10 @@
 from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker, DeclarativeBase
+from sqlalchemy.orm import sessionmaker
 
 
 # Format of a connection string to pass to sqlalchemy
 SQLALCHEMY_DATABASE_URL = "postgresql://<username>:<password>@<ip-address/hostname:port/<database_name>"
-SQLALCHEMY_DATABASE_URL = "postgresql+psycopg://postgres:password@localhost:5432/fastapi_example"
+SQLALCHEMY_DATABASE_URL = "postgresql+psycopg://postgres:besouro@localhost:5432/fastapi_example"
 
 # engine to connect to DB
 
